@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*
+Theme Name: Eco GitHub
+Theme URI: 
+Author: Chris Jonathan
+Author URI: https://www.chrisjonathan.co.uk
+Description: Eco is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: WordPress 4.9.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: eco
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e7e7e7;
+    /* background-color: black; */
+}
+
+/* Top Menu */
+header {
+    height: 50px;
+    border: 1px red solid;
+}
+
+#top-nav {
+    overflow: hidden;
+}
+
+#top-nav .container {
+    height: 100%;
+
+}
+
+#top-nav .navigation {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#top-nav .navigation .menu-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#top-nav .navigation .menu-item:last-of-type {
+    margin-right: 0;
+}
+
+/* End of Top Menu */
