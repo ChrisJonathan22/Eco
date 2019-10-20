@@ -34,6 +34,9 @@ add_action('wp_enqueue_scripts', 'load_scripts');
 // Add an option for menus
 add_theme_support('menus');
 
+// Add an option for post thumbnails
+add_theme_support('post-thumbnails');
+
 // Register menu locations
 register_nav_menus(
     array(
