@@ -1,3 +1,16 @@
+<?php
+
+$context = new Timber
+
+
+
+
+
+
+?>
+
+
+
 <?php get_header(); ?>
 <div class="container center pt-5 pb-5">
     <!-- Output Front-page title -->

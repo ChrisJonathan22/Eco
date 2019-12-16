@@ -1,0 +1,27 @@
+{% include "html-header.twig"  %}
+{# Include the top half of the page which will be displayed on every page which extends base.twig #}
+
+{% block head %}
+    <!-- This is where you’ll put template-specific stuff that needs to go in the 
+    head tags like custom meta tags, etc. -->
+{% endblock %}
+
+</head>
+
+<body class"{{ body_class }}">
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+    <!-- The template’s main content will go here. -->
+    {# When a template is extended any part found within a block can be changed #}
+{% enblock %}
+
+{% include "footer.twig" %}
+{# Include the bottom half of the page which will be displayed on every page which extends base.twig #}
+
+{{ wp_footer }}
+
+</body>
+</html>

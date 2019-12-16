@@ -1,6 +1,7 @@
 <?php 
 
 
+
 function load_stylesheets() {
 
     // The order matters and Bootstrap should be first and then the custom css.
